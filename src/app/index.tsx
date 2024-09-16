@@ -2,13 +2,7 @@ import { Text, View } from "react-native";
 
 export default function Index() {
    return (
-      <View
-         style={{
-            flex: 1,
-            justifyContent: "center",
-            alignItems: "center",
-         }}
-      >
+      <View className="flex w-full h-full items-center justify-center">
          <Text>Project Food</Text>
       </View>
    );
