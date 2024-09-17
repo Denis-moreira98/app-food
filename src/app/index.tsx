@@ -2,6 +2,7 @@ import { Text, View, ScrollView } from "react-native";
 import { Header } from "../components/header";
 
 import Constants from "expo-constants";
+import { Banner } from "../components/banner";
 
 const statusBarHeight = Constants.statusBarHeight;
 
@@ -17,6 +18,8 @@ export default function Index() {
             style={{ marginTop: statusBarHeight + 8 }}
          >
             <Header />
+
+            <Banner />
          </View>
       </ScrollView>
    );
